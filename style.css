@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.fa-circle {
+    font-size: 50px;
+    color: #b91923;
+}
+
+#logo-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    top: 30px;
+    left: 26px;
+}
