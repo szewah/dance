@@ -4,21 +4,21 @@
 }
 
 a.nav-link {
+    padding-top: 20px;
     color: white;
 }
 
 .fa-circle {
-    font-size: 50px;
+    font-size: 60px;
     color: #b91923;
 }
 
 #logo-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 15px;
     position: fixed;
-    top: 30px;
-    left: 28px;
+    top: 28px;
+    left: 26px;
 }
 
 .dropdown-menu {
@@ -37,14 +37,43 @@ a.dropdown-item {
 
 #home {
     width: 100vw;
-    height: 100wh;
+    height: 100vh;
+}
+
+.jumbotron {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('./images/outsideDance2.png') top center;
+    height: 100vh;
+}
+
+.introText {
+    font-size: 50px !important;
+    color: white;
+}
+
+#introTextP {
+    font-size: 30px;
+    color: white;
 }
 
 #introImage {
     width: 100%;
 }
 
-#section-h4 {
+#introText {
+    position: relative;
+    top: -350px;
+    text-align: center;
+    color: white;
+}
+
+#introtagLine {
+    position: relative;
+    top: -350px;
+    text-align: center;
+    color: white;
+}
+
+#contact-h4 {
     margin-top: 40px;
     text-align: center;
 }
@@ -62,4 +91,32 @@ a.dropdown-item {
 
 #newsLetterBtn {
     width: 50%;
+}
+
+#followUsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#follow-h4 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fab {
+    font-size: 30px;
+    padding: 15px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 40px;
+    background: #b91923;
+    color: white;
+    height: 80px;
+}
+
+#footerText {
+    text-align: center;
 }

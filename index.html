@@ -13,11 +13,8 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="#">
-            <i class="fas fa-circle">
-                <p id="logo-text">dvp</p>
-            </i>
-
-
+            <i class="fas fa-circle"></i>
+            <p id="logo-text">DVP</p>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,32 +53,48 @@
     </nav>
 
     <section id="home">
-        <img id="introImage" src="./images/oustidedance.jpg" alt="">
+        <div class="jumbotron">
+            <br>
+            <h4 class="introText">DANCES FOR A VARIABLE POPULATION</h4>
+            <p id="introTextP" class="lead">Creative Movement for All Adults</p>
+        </div>
     </section>
     <section id="stories"></section>
     <section id="news"></section>
     <section id="contact">
-        <h4 id="section-h4">Sign up to our newsletter</h4>
+        <h4 id="contact-h4">Sign up to our newsletter</h4>
         <div id="form-container" class="container">
             <form action="">
                 <div class="form-group">
-                    <input type="name" class="form-control" id="inputName" aria-describedby="name" placeholder="First Name">
+                    <input type="name" class="form-control" id="inputName" aria-describedby="name" placeholder="First Name" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="inputLastName" aria-describedby="lastName" placeholder="Last name">
+                    <input type="text" class="form-control" id="inputLastName" aria-describedby="lastName" placeholder="Last name" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="email" placeholder="Email">
+                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="email" placeholder="Email" required>
                 </div>
             </form>
             <div id="btn-container" class="container">
                 <button id="newsLetterBtn" type="submit" class="btn btn-warning">Sign Up</button>
             </div>
         </div>
+        <h4 id="follow-h4">Or follow us </h4>
+        <div id="followUsContainer" class="container">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-vimeo-v"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
 
     </section>
 
-    <footer></footer>
+    <footer class="footer">
+        <div id="footerContainer" class="container">
+            <p id="footerText">© 2019 DVP</p>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
