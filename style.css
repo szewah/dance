@@ -41,18 +41,21 @@ a.dropdown-item {
 }
 
 .jumbotron {
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('./images/outsideDance2.png') top center;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('./images/outsideDance3.png') top center;
     height: 100vh;
+    background-repeat: no-repeat;
 }
 
 .introText {
     font-size: 50px !important;
     color: white;
+    font-weight: 700;
 }
 
 #introTextP {
     font-size: 30px;
     color: white;
+    font-weight: 600;
 }
 
 #introImage {
@@ -71,6 +74,45 @@ a.dropdown-item {
     top: -350px;
     text-align: center;
     color: white;
+}
+
+#program-link {
+    padding-top: 50px;
+    color: white;
+    border-radius: 5px;
+}
+
+#program {
+    height: 900px;
+    width: 100%;
+    background: #b91923;
+    padding-bottom: 50px;
+}
+
+#programContainer {
+    width: 80%;
+    padding-top: 40px;
+}
+
+#program-h4 {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+#program-p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+#contact {
+    padding-top: 40px;
+    height: 100vh;
+    width: 100vw;
 }
 
 #contact-h4 {
@@ -111,7 +153,6 @@ a.dropdown-item {
 
 footer {
     width: 100%;
-    margin-top: 40px;
     background: #b91923;
     color: white;
     height: 80px;
