@@ -62,12 +62,19 @@
     <section id="news"></section>
     <section id="contact">
         <h4>Sign up to our newsletter</h4>
-        <form action="">
-            <input type="text">
-            <input type="text">
-            <button>SIGN UP</button>
-        </form>
-
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <input type="name" class="form-control" id="inputName" aria-describedby="name" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputLastName" aria-describedby="lastName" placeholder="Last name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="email" placeholder="Email">
+                </div>
+            </form>
+        </div>
     </section>
 
     <footer></footer>
