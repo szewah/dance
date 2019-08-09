@@ -44,6 +44,7 @@ a.dropdown-item {
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('./images/outsideDance3.png') top center;
     height: 100vh;
     background-repeat: no-repeat;
+    border-radius: 0;
 }
 
 .introText {
@@ -82,31 +83,54 @@ a.dropdown-item {
     border-radius: 5px;
 }
 
-#program {
-    height: 900px;
+#about {
+    height: 1000px;
     width: 100%;
     background: #b91923;
     padding-bottom: 50px;
 }
 
-#programContainer {
+#aboutContainer {
     width: 80%;
     padding-top: 40px;
 }
 
-#program-h4 {
+#about-h4 {
     margin-top: 50px;
     text-align: center;
     color: white;
 }
 
-#program-p {
-    padding-top: 20px;
+#about-p {
+    padding-top: 18px;
     padding-bottom: 40px;
     text-align: center;
     color: white;
     font-size: 1.4em;
     font-weight: 300;
+}
+
+#program {
+    height: 100vh;
+    width: 100vw;
+    background: #E8E8E8;
+}
+
+#programContainer {
+    width: 80%;
+    padding-top: 40px;
+    margin: auto;
+}
+
+#program-h4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0;
 }
 
 #contact {
@@ -122,7 +146,7 @@ a.dropdown-item {
 
 #form-container {
     padding-top: 30px;
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 
@@ -159,5 +183,6 @@ footer {
 }
 
 #footerText {
+    padding-top: 30px;
     text-align: center;
 }
