@@ -43,3 +43,23 @@ a.dropdown-item {
 #introImage {
     width: 100%;
 }
+
+#section-h4 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#form-container {
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+#newsLetterBtn {
+    width: 50%;
+}
