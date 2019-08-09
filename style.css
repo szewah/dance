@@ -34,3 +34,12 @@ a.dropdown-item {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
+#home {
+    width: 100vw;
+    height: 100wh;
+}
+
+#introImage {
+    width: 100%;
+}
