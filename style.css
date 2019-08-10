@@ -36,15 +36,16 @@ a.dropdown-item {
 }
 
 #home {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
 }
 
-.jumbotron {
+div.jumbotron {
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('./images/outsideDance3.png') top center;
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     border-radius: 0;
+    margin-bottom: 0 !important;
 }
 
 .introText {
@@ -84,7 +85,7 @@ a.dropdown-item {
 }
 
 #about {
-    height: 1000px;
+    height: auto;
     width: 100%;
     background: #b91923;
     padding-bottom: 50px;
@@ -111,15 +112,14 @@ a.dropdown-item {
 }
 
 #program {
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     background: #E8E8E8;
 }
 
 #programContainer {
-    width: 80%;
     padding-top: 40px;
-    margin: auto;
+    padding-bottom: 40px;
 }
 
 #program-h4 {
@@ -140,8 +140,9 @@ a.dropdown-item {
 }
 
 #contact-h4 {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 #form-container {
